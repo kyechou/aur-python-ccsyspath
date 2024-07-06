@@ -1,10 +1,11 @@
 pkgbase = python-ccsyspath
 	pkgdesc = Find the system include paths for clang and gcc based c/c++ compilers
 	pkgver = 1.1.0
-	pkgrel = 3
+	pkgrel = 4
 	url = https://github.com/AndrewWalker/ccsyspath
 	arch = x86_64
 	license = MIT
+	makedepends = python-setuptools
 	makedepends = python-build
 	makedepends = python-installer
 	makedepends = python-wheel

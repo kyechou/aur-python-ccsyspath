@@ -2,13 +2,13 @@
 
 pkgname=python-ccsyspath
 pkgver=1.1.0
-pkgrel=3
+pkgrel=4
 pkgdesc="Find the system include paths for clang and gcc based c/c++ compilers"
 arch=('x86_64')
 url="https://github.com/AndrewWalker/ccsyspath"
 license=('MIT')
 depends=('python')
-makedepends=('python-build' 'python-installer' 'python-wheel')
+makedepends=('python-setuptools' 'python-build' 'python-installer' 'python-wheel')
 source=("https://files.pythonhosted.org/packages/source/c/ccsyspath/ccsyspath-$pkgver.tar.gz")
 sha256sums=('e081170c7e1841af640b70c21dba697e9a7306cf8f318f57e298b6435879b6e7')
 
